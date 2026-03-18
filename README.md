@@ -2,3 +2,5 @@
 Repo the content activitys course databases two
 
 week 1
+
+Relational Database Management System (RDMS)
