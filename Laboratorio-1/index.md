@@ -68,7 +68,7 @@ SHOW DATABASES;
 
 1. Realiza diagrama entidad relacion segun los enunciados 
 
-![alt text](HospitalDB.jpg)
+![alt text](img/HospitalDB.jpg)
 
 #
 
@@ -96,7 +96,7 @@ VALUES ('2026-03-10 10:00:00', 'Chequeo anual', 'confirmada',
 COMMIT;
 ```
 
-![alt text](image.png)
+![alt text](img/image.png)
 
 2. Actualizar Cita
 
@@ -111,7 +111,7 @@ WHERE id_cita = 100;
 COMMIT;
 ```
 
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
 3. Insertar Medicamento y Receta
 
@@ -134,7 +134,7 @@ VALUES (
 COMMIT;
 ```
 
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 
 4. Actualizar Receta
 
@@ -149,7 +149,7 @@ AND id_medicamento = (SELECT id_medicamento FROM Medicamento WHERE nombre = 'Sue
 COMMIT;
 ```
 
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
 5. Eliminar/Cancelar Cita
 
@@ -163,7 +163,7 @@ WHERE id_paciente = (SELECT id_paciente FROM Paciente WHERE num_seguro_medico = 
 ROLLBACK;
 ```
 
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 
 Para este ejercicio use MySQL Workbench.
 
